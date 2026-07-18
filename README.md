@@ -10,7 +10,7 @@ This script supports:
 
 ### Save annotated media only
 ```bash
-python predictWithOCR_flexible.py --model best.pt --source demo.mp4 --output-mode media --device 0
+python predictWithOCR_flexible.py --model './models/license_plate_detector.pt' --source demo.mp4 --output-mode media --device 0
 ```
 
 ### Save JSON only
